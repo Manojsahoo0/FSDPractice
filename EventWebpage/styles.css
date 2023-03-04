@@ -1,0 +1,57 @@
+.details {
+    width: 500px;
+    height: 300px;
+    background-color: darkslategray;
+    color: white;
+    float: left;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    margin-top: 40px;
+    margin-left: 30px;
+    
+}
+
+.details:hover{
+    background-color: red;
+}
+
+.list {
+    width: 45%;
+    float: right;
+    background-color: darkslategrey;
+    padding: 30px;
+}
+
+.date {
+    text-align: center;
+    background-color: black;
+    color: white;
+	padding: 40px;
+    font-size: 8mm;
+			
+    
+}
+ .date:hover{
+    background-color: red;
+ }
+
+.overview {
+    background-color: white;
+    padding: 10px;
+}
+/* .top {
+    background-color: rgb(199, 21, 21);
+} */
+
+p {
+    font-size: 4mm;
+}
+.row {
+    padding: 10px;
+    border-width: 20px;
+}
+button:hover{
+    background-color: red;
+}

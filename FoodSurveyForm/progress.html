@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        progress{
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        /* chrome, safari, edge */
+        progress[value]::-webkit-progress-bar{
+            background-color: aqua;
+        }
+        progress[value]::-webkit-progress-value {
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+            background-color: brown;
+        }
+
+        /* only for mozilla */
+        progress[value]::-moz-progress-bar{
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+            background-color: brown;
+        }
+
+    </style>
+</head>
+<body>
+    <label for="course">course Progress:</label>
+    <progress id="course" max="100" value="30"></progress>
+</body>
+</html>
